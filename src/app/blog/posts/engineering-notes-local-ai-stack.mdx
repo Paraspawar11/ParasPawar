@@ -1,0 +1,25 @@
+---
+title: "Engineering Notes: Building a Local-First AI Stack"
+subtitle: "Why privacy and speed need to coexist"
+publishedAt: "2026-03-01"
+summary: "An overview of the architecture choices behind our local-first AI product direction."
+image: "/images/projects/nexkora-banner.png"
+images:
+  - "/images/projects/nexkora-banner.png"
+tag: "Engineering"
+team:
+  - name: "NexShell Team"
+    role: "Engineering"
+    avatar: "/images/avatar.png"
+    linkedIn: "https://linkedin.com"
+---
+
+Our architecture direction is simple: local where it matters, hybrid where it helps.
+
+We are optimizing for three priorities:
+
+- **Control:** User data stays in the user environment by default.
+- **Latency:** Core operations are optimized for local response.
+- **Scalability:** External AI APIs are optional layers, not hard dependencies.
+
+This model gives users practical flexibility without sacrificing privacy.
