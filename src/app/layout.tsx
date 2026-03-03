@@ -17,13 +17,22 @@ import { Footer, Header, RouteGuard, Providers } from "@/components";
 import { baseURL, effects, fonts, style, dataStyle, home } from "@/resources";
 
 export async function generateMetadata() {
-  return Meta.generate({
-    title: home.title,
+  const metadata = Meta.generate({
+    title: "Paras Pawar | NexShell",
     description: home.description,
     baseURL: baseURL,
     path: home.path,
-    image: home.image,
+    image: "/images/projects/nexshell/cover-01.png",
   });
+
+  return {
+    ...metadata,
+    icons: {
+      icon: "/images/avatar.png",
+      shortcut: "/images/avatar.png",
+      apple: "/images/avatar.png",
+    },
+  };
 }
 
 export default async function RootLayout({

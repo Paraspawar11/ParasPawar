@@ -56,9 +56,9 @@ const social: Social = [
 
 const home: Home = {
   path: "/",
-  image: "/images/og/home.svg",
+  image: "/images/projects/nexshell/cover-01.png",
   label: "Home",
-  title: `${person.name} | NexShell`,
+  title: "Paras Pawar | NexShell",
   description: `Developer building private, local-first software at NexShell. Creator of NexKora-AI.`,
   headline: <>Building private AI for everyone</>,
   featured: {
