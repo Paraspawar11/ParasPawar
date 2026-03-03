@@ -1,0 +1,85 @@
+/* NexShell Custom Styles */
+/* Privacy-focused, local-first software brand */
+
+:root {
+  /* Enhanced cyan brand colors for NexShell */
+  --scheme-brand-100: #081018;
+  --scheme-brand-200: #0a1f2e;
+  --scheme-brand-300: #0d3347;
+  --scheme-brand-400: #0f4760;
+  --scheme-brand-500: #115b7a;
+  --scheme-brand-600: #147696;
+  --scheme-brand-700: #1894b5;
+  --scheme-brand-800: #1db3d4;
+  --scheme-brand-900: #24d1f0;
+  --scheme-brand-1000: #4adeff;
+  --scheme-brand-1100: #75e8ff;
+  --scheme-brand-1200: #a0f2ff;
+  --scheme-brand-600-10: rgba(20,118,150,0.1);
+  --scheme-brand-600-30: rgba(20,118,150,0.3);
+  --scheme-brand-600-50: rgba(20,118,150,0.5);
+
+  /* Violet accent for AI/tech feel */
+  --scheme-accent-100: #1a0f2e;
+  --scheme-accent-200: #2d1a4f;
+  --scheme-accent-300: #452670;
+  --scheme-accent-400: #5e3391;
+  --scheme-accent-500: #7841b2;
+  --scheme-accent-600: #9352d3;
+  --scheme-accent-700: #af66f4;
+  --scheme-accent-800: #c485ff;
+  --scheme-accent-900: #d4a5ff;
+  --scheme-accent-1000: #e4c6ff;
+  --scheme-accent-1100: #f1e0ff;
+  --scheme-accent-1200: #f9f0ff;
+  --scheme-accent-600-10: rgba(147,82,211,0.1);
+  --scheme-accent-600-30: rgba(147,82,211,0.3);
+  --scheme-accent-600-50: rgba(147,82,211,0.5);
+}
+
+/* Custom typography for tech-focused content */
+code, pre {
+  font-family: var(--font-code) !important;
+}
+
+/* Smooth scrolling for better UX */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar for WebKit browsers */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--neutral-background-strong);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--neutral-alpha-medium);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--neutral-alpha-strong);
+}
+
+/* Focus visible for accessibility */
+:focus-visible {
+  outline: 2px solid var(--brand-border-strong);
+  outline-offset: 2px;
+}
+
+/* Performance: Reduce motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

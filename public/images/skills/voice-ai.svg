@@ -1,0 +1,12 @@
+<svg width="800" height="450" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wave_grad" x1="250" y1="225" x2="550" y2="225" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00FFFF"/>
+      <stop offset="50%" stop-color="#8B00FF"/>
+      <stop offset="100%" stop-color="#00FFFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="#050505"/>
+  <path d="M250 225 L270 225 L280 180 L300 270 L320 150 L340 300 L360 200 L380 250 L400 100 L420 350 L440 200 L460 250 L480 180 L500 270 L520 225 L550 225" stroke="url(#wave_grad)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+  <path d="M250 225 L270 225 L285 210 L310 240 L335 190 L360 260 L385 215 L415 245 L445 205 L475 255 L505 215 L525 235 L550 225" stroke="#00FFFF" stroke-width="1.5" stroke-opacity="0.3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

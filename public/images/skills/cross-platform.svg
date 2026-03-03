@@ -1,0 +1,15 @@
+<svg width="800" height="450" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="metal_grad" x1="400" y1="180" x2="400" y2="350" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="#050505"/>
+  <rect x="250" y="150" width="300" height="200" rx="12" fill="url(#metal_grad)" stroke="#00FFFF" stroke-width="2"/>
+  <rect x="260" y="160" width="280" height="150" rx="4" fill="#0A0A0A"/>
+  <rect x="440" y="240" width="80" height="130" rx="8" fill="url(#metal_grad)" stroke="#8B00FF" stroke-width="2"/>
+  <rect x="448" y="250" width="64" height="100" rx="2" fill="#0A0A0A"/>
+  <circle cx="480" cy="358" r="4" fill="#8B00FF"/>
+  <circle cx="400" cy="325" r="5" fill="#00FFFF"/>
+</svg>

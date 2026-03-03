@@ -1,0 +1,27 @@
+<svg width="1600" height="900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="aiMlGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#10b981;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="#0f172a"/>
+  <circle cx="800" cy="450" r="400" fill="url(#aiMlGrad)" opacity="0.15"/>
+  <polygon points="600,300 800,200 1000,300 1000,500 800,600 600,500" fill="none" stroke="#8b5cf6" stroke-width="4" opacity="0.6"/>
+  <polygon points="650,330 800,250 950,330 950,480 800,560 650,480" fill="none" stroke="#10b981" stroke-width="4" opacity="0.6"/>
+  <polygon points="700,360 800,300 900,360 900,460 800,520 700,460" fill="url(#aiMlGrad)" opacity="0.3"/>
+  <circle cx="800" cy="410" r="60" fill="#8b5cf6" opacity="0.8"/>
+  <circle cx="750" cy="380" r="30" fill="#10b981" opacity="0.7"/>
+  <circle cx="850" cy="380" r="30" fill="#10b981" opacity="0.7"/>
+  <circle cx="800" cy="450" r="30" fill="#10b981" opacity="0.7"/>
+  <line x1="600" y1="650" x2="700" y2="700" stroke="#8b5cf6" stroke-width="3" stroke-dasharray="10,5"/>
+  <line x1="1000" y1="650" x2="900" y2="700" stroke="#10b981" stroke-width="3" stroke-dasharray="10,5"/>
+  <rect x="400" y="720" width="200" height="60" rx="10" fill="#1e293b" stroke="#8b5cf6" stroke-width="2"/>
+  <text x="500" y="758" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#e2e8f0">Python</text>
+  <rect x="700" y="720" width="200" height="60" rx="10" fill="#1e293b" stroke="#10b981" stroke-width="2"/>
+  <text x="800" y="758" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#e2e8f0">TensorFlow</text>
+  <rect x="1000" y="720" width="200" height="60" rx="10" fill="#1e293b" stroke="#8b5cf6" stroke-width="2"/>
+  <text x="1100" y="758" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#e2e8f0">PyTorch</text>
+  <text x="800" y="850" font-family="Arial, sans-serif" font-size="56" font-weight="bold" fill="#e2e8f0" text-anchor="middle">AI & Machine Learning</text>
+  <text x="800" y="900" font-family="Arial, sans-serif" font-size="32" fill="#94a3b8" text-anchor="middle">Neural Networks • Deep Learning • ML Models</text>
+</svg>

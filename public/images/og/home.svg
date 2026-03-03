@@ -1,0 +1,28 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ogGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e293b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="ogGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#ogGrad1)"/>
+  <circle cx="600" cy="315" r="250" fill="url(#ogGrad2)" opacity="0.15"/>
+  <circle cx="600" cy="315" r="150" fill="url(#ogGrad2)" opacity="0.2"/>
+  <rect x="100" y="100" width="1000" height="430" rx="30" fill="#1e293b" stroke="url(#ogGrad2)" stroke-width="4"/>
+  <rect x="120" y="120" width="960" height="100" rx="15" fill="url(#ogGrad2)" opacity="0.8"/>
+  <text x="600" y="190" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#ffffff" text-anchor="middle">Paras Pawar</text>
+  <rect x="120" y="240" width="960" height="270" rx="15" fill="#0f172a"/>
+  <text x="600" y="320" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#e2e8f0" text-anchor="middle">Developer @ NexShell</text>
+  <text x="600" y="380" font-family="Arial, sans-serif" font-size="32" fill="#94a3b8" text-anchor="middle">Building private AI for everyone</text>
+  <text x="600" y="430" font-family="Arial, sans-serif" font-size="28" fill="#64748b" text-anchor="middle">NexKora-AI • Local-First Software • Privacy-Focused</text>
+  <rect x="150" y="530" width="200" height="60" rx="10" fill="#06b6d4" opacity="0.3"/>
+  <rect x="500" y="530" width="200" height="60" rx="10" fill="#8b5cf6" opacity="0.3"/>
+  <rect x="850" y="530" width="200" height="60" rx="10" fill="#10b981" opacity="0.3"/>
+  <text x="250" y="568" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#06b6d4" text-anchor="middle">AI</text>
+  <text x="600" y="568" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#8b5cf6" text-anchor="middle">Voice</text>
+  <text x="950" y="568" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#10b981" text-anchor="middle">Privacy</text>
+</svg>
