@@ -8,7 +8,7 @@ const person: Person = {
   role: "Developer @ NexShell",
   avatar: "/images/avatar.png",
   email: "nexshellofficial@proton.me",
-  location: "Thane, Maharashtra", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  location: "Asia/Kolkata", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: [], // optional: Leave the array empty if you don't want to display languages
 };
 
