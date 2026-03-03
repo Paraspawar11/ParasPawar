@@ -73,18 +73,9 @@ export default async function RootLayout({
                     root.setAttribute('data-' + key, value);
                   });
                   
-                  // Resolve theme
-                  const resolveTheme = (themeValue) => {
-                    if (!themeValue || themeValue === 'system') {
-                      return defaultTheme;
-                    }
-                    return themeValue;
-                  };
-                  
-                  // Apply saved theme
-                  const savedTheme = localStorage.getItem('data-theme');
-                  const resolvedTheme = resolveTheme(savedTheme);
-                  root.setAttribute('data-theme', resolvedTheme);
+                  // Force light theme regardless of device or saved preference
+                  root.setAttribute('data-theme', defaultTheme);
+                  localStorage.setItem('data-theme', defaultTheme);
                   
                   // Apply any saved style overrides
                   const styleKeys = Object.keys(config);

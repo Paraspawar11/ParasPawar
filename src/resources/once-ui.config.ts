@@ -27,7 +27,7 @@ const routes: RoutesConfig = {
 const display: DisplayConfig = {
   location: true,
   time: false, // Disabled for privacy
-  themeSwitcher: true,
+  themeSwitcher: false,
 };
 
 // Enable password protection on selected routes
